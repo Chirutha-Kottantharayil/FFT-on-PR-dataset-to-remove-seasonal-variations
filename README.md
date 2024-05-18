@@ -4,7 +4,5 @@ Fast Fourier Transform is applied on a Peformance Ratio (PR) dataset to remove p
 ## Getting Started
 You would need a PR time series dataset.
 ### Python Prerequisites
-<tab>
 * scipy
 * numpy
-<tab>
