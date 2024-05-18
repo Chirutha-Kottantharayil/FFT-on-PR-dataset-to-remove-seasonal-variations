@@ -10,7 +10,7 @@ You would need a PR time series dataset.
 * scipy
 * numpy
 * bokeh
-The choice of plotting software to use is up to each individual. I have used bokeh for all the graph plotting.
+\n The choice of plotting software to use is up to each individual. I have used bokeh for all the graph plotting.
 
 ## Methodology
 ### 1. 
