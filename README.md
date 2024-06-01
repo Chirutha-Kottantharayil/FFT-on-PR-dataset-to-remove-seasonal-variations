@@ -20,7 +20,8 @@ The details of the PR dataset used in the program is given in the methodology se
 * pandas
 * scipy
 * numpy
-* bokeh  
+* bokeh
+
 (Note: The choice of plotting software is flexible; bokeh is used here for all graph plotting.)
 
 
@@ -29,6 +30,7 @@ The details of the PR dataset used in the program is given in the methodology se
 The PR dataset used in the program comprises:
 * Date column
 * PR column
+
 The dataset spans from 20-10-2010 to 20-10-2013 (3 years).
 
 ### 2. The FFT on PR dataset
@@ -46,9 +48,9 @@ IFFT is applied to the filtered data to reconstruct the PR dataset after elimina
 
 ## Result
 The result of the code for the PR dataset is:
-### 1. The seasonal component of PR (representing the seasonal variation in PR dataset)
+### 1. The seasonal component of PR
 Fig-1, The red dots represent the PR from the dataset and the black line represents the seasonal variations in the PR.
-
+### 2. The residue component of PR
 Fig-2, The blue dots represent the PR after elimination of seasonal variations. 
 
 
