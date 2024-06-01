@@ -49,8 +49,11 @@ IFFT is applied to the filtered data to reconstruct the PR dataset after elimina
 ## Result
 The result of the code for the PR dataset is:
 ### 1. The seasonal component of PR
+![PR seasonal!](image/pr seasonal component.png)
+
 Fig-1, The red dots represent the PR from the dataset and the black line represents the seasonal variations in the PR.
 ### 2. The residue component of PR
+![PR residue!](image/pr residue component.png)
 Fig-2, The blue dots represent the PR after elimination of seasonal variations. 
 
 
