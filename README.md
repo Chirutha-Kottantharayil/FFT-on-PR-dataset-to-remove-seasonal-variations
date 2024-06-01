@@ -6,6 +6,7 @@ Performance Ratio (PR) is a critical metric for evaluating the performance of Ph
 
 To address this, we utilise the Fourier Transform to remove the periodic seasonal variations from the PR dataset. Specifically, we implement the Fast Fourier Transform (FFT) using the Scipy Python package. We can effectively eliminate the seasonal variations by identifying and filtering out the dominant peak in the power spectral density corresponding to the period of seasonal variation of PR. Finally, we use the Inverse FFT (IFFT) to reconstruct the PR time series without the seasonal components.
 
+[The code for performing the FFT on PR dataset](FFT.ipynb)
 ## Prerequisites 
 ### PR dataset 
 A time series PR dataset with daily resolution is used in the program. Points to be noted while selecting the PR dataset-
@@ -27,7 +28,7 @@ The details of the PR dataset used in the program is given in the methodology se
 
 ## Methodology
 ### 1. The PR dataset
-The [PR dataset used in the code](FFT.ipynb) comprises:
+The [PR dataset used in the code](pr_dataset.csv) comprises:
 * Date column
 * PR column
 
@@ -47,7 +48,7 @@ The data is filtered into two components:
 IFFT is applied to the filtered data to reconstruct the PR dataset after eliminating the seasonal variations.
 
 ## Result
-The result of the code for the PR dataset is:
+The [result](pr_fft_dataset.csv) of the code for the PR dataset is:
 ### 1. The seasonal component of PR
 ![PR seasonal!](image/pr%20seasonal%20component.png)
 
