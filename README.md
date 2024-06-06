@@ -1,4 +1,3 @@
-
 # Removing Seasonal Variations from the Performance Ratio (PR) Dataset Using FFT
 
 Performance Ratio (PR) is a critical metric for evaluating the performance of Photovoltaic (PV) power plants. PR values are influenced by various factors, with some being weather-dependent, which introduces seasonal fluctuations in the PR.
@@ -53,11 +52,11 @@ The [result](pr_fft_dataset.csv) of the code for the PR dataset is:
 ![PR seasonal!](image/pr%20seasonal%20component.png)
 
 Fig-1, The red dots represent the PR from the dataset and the black line represents the seasonal variations in the PR.
-### 2. The residue component of PR
+### 2. The PR after removal of seasonal component of PR
 ![PR residue!](image/pr%20residue%20component.png)
 Fig-2, The blue dots represent the PR after elimination of seasonal variations. 
 
 
 ## Acknowledgement
-
+The described algorithm is detailed in the paper:
 Chirutha K, Shoubhik De, Deepa M. U, Anil Kottantharayil, "A Signal Processing Method for the Reduction of Seasonal Variations in Performance Ratio Estimations of PV Powerplants," – Submitted to: 52nd IEEE Photovoltaic Specialists Conference, June 2024, Seattle, USA.
