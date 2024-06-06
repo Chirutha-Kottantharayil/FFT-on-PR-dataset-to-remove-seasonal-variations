@@ -58,4 +58,6 @@ Fig-1, The red dots represent the PR from the dataset and the black line represe
 Fig-2, The blue dots represent the PR after elimination of seasonal variations. 
 
 
+## Acknowledgement
 
+Chirutha K, Shoubhik De, Deepa M. U, Anil Kottantharayil, "A Signal Processing Method for the Reduction of Seasonal Variations in Performance Ratio Estimations of PV Powerplants," – Submitted to: 52nd IEEE Photovoltaic Specialists Conference, June 2024, Seattle, USA.
