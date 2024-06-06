@@ -10,7 +10,7 @@ To address this, we utilise the Fourier Transform to remove the periodic seasona
 ### PR dataset 
 A time series PR dataset with daily resolution is used in the program. Points to be noted while selecting the PR dataset-
 * The dataset must be a time series with daily resolution.
-* The dataset must cover complete years (e.g., 1 year, 2 years, 3 years, etc.).
+* The dataset must cover complete years (e.g., 1 year, 2 years, 3 years, etc.). 
 * The dataset should have minimal NAN values.
 * If NAN values are present in the dataset, interpolation methods are utilised to compute the missing values in the PR dataset.
 
